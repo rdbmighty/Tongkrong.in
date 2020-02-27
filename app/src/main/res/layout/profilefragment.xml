@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background_poly_merah"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_edt_profile"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/oval_button"
+        android:text="Log out"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_edt_profile"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profile_info"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/oval_abu"
+        android:text="Edit Profile"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/profile_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/muke_gile"
+        android:background="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:text="Revino Datya Baventa\n@revinodatya" />
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/muke_gile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/muke_gile"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="6dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10" />
+
+
+
+</RelativeLayout>
