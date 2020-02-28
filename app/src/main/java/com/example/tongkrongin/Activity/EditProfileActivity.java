@@ -1,4 +1,4 @@
-package com.example.tongkrongin;
+package com.example.tongkrongin.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,7 @@ import android.widget.EditText;
 import com.example.tongkrongin.Activity.LoginActivity;
 import com.example.tongkrongin.Activity.MainActivity;
 import com.example.tongkrongin.Fragment.ProfileFragment;
+import com.example.tongkrongin.R;
 
 public class EditProfileActivity extends AppCompatActivity {
 

@@ -14,5 +14,42 @@
         android:background="#ff8a8a"
 
         />
+    <ScrollView
+        android:layout_below="@+id/search_lup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="490dp"
+                android:src="@drawable/gmbr5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="420dp"
+                android:src="@drawable/gmbr4" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="434dp"
+                android:src="@drawable/gmbr3" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="397dp"
+                android:src="@drawable/gmbr2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="388dp"
+                android:src="@drawable/gmbr1" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_poly_merah"
-    tools:context=".EditProfileActivity">
+    tools:context=".Activity.EditProfileActivity">
 
     <ImageView
         android:id="@+id/logo"

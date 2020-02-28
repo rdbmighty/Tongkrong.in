@@ -9,15 +9,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.tongkrongin.Activity.LoginActivity;
-import com.example.tongkrongin.Activity.RegisterActivity;
-import com.example.tongkrongin.EditProfileActivity;
+import com.example.tongkrongin.Activity.EditProfileActivity;
 import com.example.tongkrongin.R;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 
 public class ProfileFragment extends Fragment {
